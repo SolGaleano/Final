@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    text-align: center;
+background-image: url(kitty-cats-kawaii-cute-characters-5059750.jpg);
+}
+.header {
+padding: 30px;
+text-align: center;
+font-family: cursive;
+font-style: italic;
+}
+.header h3{
+    font-size: 30px;
+}
+
+
+.table {
+    background-color: rgb(208, 234, 255);
+}
+.table h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.table tr{
+    text-align: center;
+    background-color: rgb(71, 4, 102);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(208, 234, 255);
+}
+
+
+
+.contenedor{
+    display: grid;
+gap: 10px;
+margin: auto;
+}
+.box{
+    background-color: rgb(249, 224, 255);
+    border-radius: 10px;
+    height: 140px;
+    padding: 10px;
+}
+
+.aside{
+    width: 20%;
+    float: right;
+    background-color: rgb(249, 224, 255);
+    height: max-content;
+
+}
+.section{
+    width: 80%;
+    float: left;
+    background-color: rgb(237, 255, 255);
+    text-align: center;
+}
+
+.container-fluid{
+    background-color: rgb(208, 234, 255);
+}
+.gallery{
+    margin: 5px;
+  border: 5px solid rgb(249, 224, 255);
+  float: left;
+  width: 210px;
+}
+.fotin{
+    margin: 5px;
+  border: 5px solid rgb(249, 224, 255);
+  width: 100px;
+}
+.tablita td{
+    text-align: center;
+}
+.descarga a{
+    text-decoration: none;
+    background-color: rgb(249, 224, 255);
+    margin: 5px;
+    border: 2px solid #000000; 
+    border-radius: 10px;
+    color: #000000;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
